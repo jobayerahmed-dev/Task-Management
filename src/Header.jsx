@@ -1,10 +1,10 @@
-import HeroLogo from './assets/header-logo.png'
+import HeroLogo from "./assets/header-logo.avif";
 export default function Header() {
   return (
-    <nav className="py-6 md:py-8 fixed top-0 w-full !bg- [#191D26] z-50">
-      <div className="container mx-auto flex items-center justify-between gap-x-6">
+    <nav className="py-8 md:py-8 fixed top-0 w-full !bg- [#191D26] z-50">
+      <div className="container mx-auto flex items-center justify-center gap-x-6">
         <a href="/">
-          <img className="h-[45px]" src={HeroLogo} alt="Lws" />
+          <img className="h-[60px]" src={HeroLogo} alt="Lws" />
         </a>
       </div>
     </nav>
