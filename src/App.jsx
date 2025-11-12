@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Header from "./header";
 import HeroSection from "./HeroSection";
-import Taskbord from "./Taskbord/Taskbord.jsx";
+import Taskbord from "./Task/Taskbord";
 export default function App() {
   return (
     <>
