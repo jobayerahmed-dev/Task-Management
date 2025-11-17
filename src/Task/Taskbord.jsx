@@ -13,12 +13,15 @@ const defaultTask = {
   isFavaret: true,
 };
 export default function Taskbord() {
-  const [tasks, _setTasks] = useState([defaultTask]);
+  // eslint-disable-next-line no-unused-vars
+  const [tasks, setTasks] = useState([defaultTask]);
   const [showAddModel, setshowAddModel] = useState(true);
 
-  // function handelAddclick() {
-  //   console.log("add click");
-  // }
+// eslint-disable-next-line no-unused-vars
+function handleAddClick() {
+  console.log("add click");
+}
+
   return (
     <section className="mb-20" id="tasks">
       {showAddModel && <AddtaskModel />}
